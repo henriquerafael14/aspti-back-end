@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspti-back-end", "aspti-back-end\aspti-back-end.csproj", "{C38F1E8A-C4B5-441B-A18A-A965107C9D14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C38F1E8A-C4B5-441B-A18A-A965107C9D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38F1E8A-C4B5-441B-A18A-A965107C9D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38F1E8A-C4B5-441B-A18A-A965107C9D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38F1E8A-C4B5-441B-A18A-A965107C9D14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {933118C9-41D2-4D83-92DD-9C5614EE24A5}
+	EndGlobalSection
+EndGlobal
