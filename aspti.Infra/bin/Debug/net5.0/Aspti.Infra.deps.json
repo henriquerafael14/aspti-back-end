@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Aspti.Infra/1.0.0": {
+        "runtime": {
+          "Aspti.Infra.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Aspti.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
