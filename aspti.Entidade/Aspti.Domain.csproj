@@ -4,4 +4,20 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interface\Repository\" />
+    <Folder Include="Service\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="LinqKit" Version="1.2.4" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="7.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aspti.Infra.CrossCutting.Utils\Aspti.Infra.CrossCutting.Utils.csproj" />
+    <ProjectReference Include="..\Aspti.Infra.CrossCutting\Aspti.Infra.CrossCutting.Enums.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -9,3 +9,14 @@ C:\Users\Rafael\Documents\ASPTI\novo\aspti-back-end\aspti.Infra\obj\Debug\net5.0
 C:\Users\Rafael\Documents\ASPTI\novo\aspti-back-end\aspti.Infra\obj\Debug\net5.0\Aspti.Infra.dll
 C:\Users\Rafael\Documents\ASPTI\novo\aspti-back-end\aspti.Infra\obj\Debug\net5.0\ref\Aspti.Infra.dll
 C:\Users\Rafael\Documents\ASPTI\novo\aspti-back-end\aspti.Infra\obj\Debug\net5.0\Aspti.Infra.pdb
+C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Infra\bin\Debug\net5.0\Aspti.Infra.deps.json
+C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Infra\bin\Debug\net5.0\Aspti.Infra.dll
+C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Infra\bin\Debug\net5.0\ref\Aspti.Infra.dll
+C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Infra\bin\Debug\net5.0\Aspti.Infra.pdb
+C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Infra\obj\Debug\net5.0\Aspti.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Infra\obj\Debug\net5.0\Aspti.Infra.AssemblyInfoInputs.cache
+C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Infra\obj\Debug\net5.0\Aspti.Infra.AssemblyInfo.cs
+C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Infra\obj\Debug\net5.0\Aspti.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Infra\obj\Debug\net5.0\Aspti.Infra.dll
+C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Infra\obj\Debug\net5.0\ref\Aspti.Infra.dll
+C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Infra\obj\Debug\net5.0\Aspti.Infra.pdb
