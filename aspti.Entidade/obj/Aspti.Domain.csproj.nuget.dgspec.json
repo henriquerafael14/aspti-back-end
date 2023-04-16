@@ -28,6 +28,12 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Autenticacao\\Aspti.Infra.CrossCutting.Autenticacao.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Autenticacao\\Aspti.Infra.CrossCutting.Autenticacao.csproj"
+              },
+              "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Notificacoes\\Aspti.Infra.CrossCutting.Notificacoes.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Notificacoes\\Aspti.Infra.CrossCutting.Notificacoes.csproj"
+              },
               "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Utils\\Aspti.Infra.CrossCutting.Utils.csproj": {
                 "projectPath": "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Utils\\Aspti.Infra.CrossCutting.Utils.csproj"
               },
@@ -58,6 +64,210 @@
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Autenticacao\\Aspti.Infra.CrossCutting.Autenticacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Autenticacao\\Aspti.Infra.CrossCutting.Autenticacao.csproj",
+        "projectName": "Aspti.Infra.CrossCutting.Autenticacao",
+        "projectPath": "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Autenticacao\\Aspti.Infra.CrossCutting.Autenticacao.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Autenticacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Configuration\\Aspti.Infra.CrossCutting.Configuration.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Configuration\\Aspti.Infra.CrossCutting.Configuration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.29.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Configuration\\Aspti.Infra.CrossCutting.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Configuration\\Aspti.Infra.CrossCutting.Configuration.csproj",
+        "projectName": "Aspti.Infra.CrossCutting.Configuration",
+        "projectPath": "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Configuration\\Aspti.Infra.CrossCutting.Configuration.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Notificacoes\\Aspti.Infra.CrossCutting.Notificacoes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Notificacoes\\Aspti.Infra.CrossCutting.Notificacoes.csproj",
+        "projectName": "Aspti.Infra.CrossCutting.Notificacoes",
+        "projectPath": "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Notificacoes\\Aspti.Infra.CrossCutting.Notificacoes.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rafael\\Documents\\ASPTI\\aspti-back-end\\Aspti.Infra.CrossCutting.Notificacoes\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
             }
           },
           "imports": [
@@ -168,6 +378,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

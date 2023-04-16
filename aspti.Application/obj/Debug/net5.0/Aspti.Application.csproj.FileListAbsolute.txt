@@ -14,6 +14,7 @@ C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Application\bin\Debug\net5.
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Application\bin\Debug\net5.0\Aspti.Application.dll
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Application\bin\Debug\net5.0\ref\Aspti.Application.dll
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Application\bin\Debug\net5.0\Aspti.Application.pdb
+C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Application\obj\Debug\net5.0\Aspti.Application.csproj.AssemblyReference.cache
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Application\obj\Debug\net5.0\Aspti.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Application\obj\Debug\net5.0\Aspti.Application.AssemblyInfoInputs.cache
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.Application\obj\Debug\net5.0\Aspti.Application.AssemblyInfo.cs

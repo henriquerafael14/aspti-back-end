@@ -2,6 +2,9 @@
 using System;
 using Microsoft.AspNetCore.Identity;
 using Aspti.Infra.CrossCutting.Enums;
+using System.Collections.Generic;
+using System.Linq;
+using System.Collections.ObjectModel;
 
 namespace Aspti.Domain.Entidades
 {
@@ -13,7 +16,7 @@ namespace Aspti.Domain.Entidades
 		}
 
         public Usuario(Guid id, string userName, string nome, string sobrenome,
-        string email, string cpfCnpj, DateTime dataNascimento,
+        string email, UserStatusEnum status, string cpfCnpj, DateTime dataNascimento,
         string phoneNumber, string passwordHash, string securityStamp, string concurrencyStamp)
         {
             Id = id;
@@ -24,8 +27,8 @@ namespace Aspti.Domain.Entidades
             Email = email;
             NormalizedEmail = email.ToUpper();
             EmailConfirmed = true;
-            //Status = status;
-            CPFCNPJ = cpfCnpj;
+			Status = status;
+			CPFCNPJ = cpfCnpj;
             DataNascimento = dataNascimento;
             PhoneNumber = phoneNumber;
             PasswordHash = passwordHash;
@@ -42,11 +45,26 @@ namespace Aspti.Domain.Entidades
 		public virtual UserStatusEnum Status { get; set; } = UserStatusEnum.Inativo;
 		public DateTime DataCriacao { get; set; } = DateTime.Now;
 		public DateTime DataAtualizacao { get; set; } = DateTime.Now;
+        public virtual ICollection<UsuarioPerfil> UsuarioPerfis { get; protected set; } = new Collection<UsuarioPerfil>();
 
-		public void Ativar() => Status = UserStatusEnum.Ativo;
+        public void Ativar() => Status = UserStatusEnum.Ativo;
 		public void Inativar() => Status = UserStatusEnum.Inativo;
 
-		public void AlterarPasswordHash(string passwordHash)
+        public void AtualizarPerfis(List<Guid> perfisId)
+        {
+            UsuarioPerfis ??= new List<UsuarioPerfil>();
+            UsuarioPerfis.Clear();
+
+            var usuarioPerfis = perfisId.Select(p => new UsuarioPerfil()
+            {
+                UserId = Id,
+                RoleId = p
+            }).ToList();
+
+            UsuarioPerfis = usuarioPerfis;
+        }
+
+        public void AlterarPasswordHash(string passwordHash)
         {
             PasswordHash = passwordHash;
         }

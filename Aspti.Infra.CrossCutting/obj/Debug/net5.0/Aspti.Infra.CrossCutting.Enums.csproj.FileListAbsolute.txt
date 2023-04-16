@@ -2,6 +2,7 @@ C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting\bin\Debu
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting\bin\Debug\net5.0\Aspti.Infra.CrossCutting.Enums.dll
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting\bin\Debug\net5.0\ref\Aspti.Infra.CrossCutting.Enums.dll
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting\bin\Debug\net5.0\Aspti.Infra.CrossCutting.Enums.pdb
+C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting\obj\Debug\net5.0\Aspti.Infra.CrossCutting.Enums.csproj.AssemblyReference.cache
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting\obj\Debug\net5.0\Aspti.Infra.CrossCutting.Enums.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting\obj\Debug\net5.0\Aspti.Infra.CrossCutting.Enums.AssemblyInfoInputs.cache
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting\obj\Debug\net5.0\Aspti.Infra.CrossCutting.Enums.AssemblyInfo.cs
