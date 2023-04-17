@@ -2,7 +2,6 @@ C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Notifica
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Notificacoes\bin\Debug\net5.0\Aspti.Infra.CrossCutting.Notificacoes.dll
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Notificacoes\bin\Debug\net5.0\ref\Aspti.Infra.CrossCutting.Notificacoes.dll
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Notificacoes\bin\Debug\net5.0\Aspti.Infra.CrossCutting.Notificacoes.pdb
-C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Notificacoes\obj\Debug\net5.0\Aspti.Infra.CrossCutting.Notificacoes.csproj.AssemblyReference.cache
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Notificacoes\obj\Debug\net5.0\Aspti.Infra.CrossCutting.Notificacoes.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Notificacoes\obj\Debug\net5.0\Aspti.Infra.CrossCutting.Notificacoes.AssemblyInfoInputs.cache
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Notificacoes\obj\Debug\net5.0\Aspti.Infra.CrossCutting.Notificacoes.AssemblyInfo.cs

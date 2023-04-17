@@ -36,6 +36,19 @@ namespace Aspti.Domain.Entidades
             ConcurrencyStamp = concurrencyStamp;
         }
 
+        public Usuario(string nomeUsuario, string nome, string sobrenome, string cpfCnpj, DateTime dataNascimento,
+        string email, string telefone, Endereco endereco)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+            CPFCNPJ = cpfCnpj;
+            DataNascimento = dataNascimento;
+            Email = email;
+            UserName = nomeUsuario;
+            PhoneNumber = telefone;
+            Endereco = endereco;
+            EmailConfirmed = true;
+        }
 
         public string Nome { get; private set; }
 		public string Sobrenome { get; private set; }

@@ -21,6 +21,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.Data", "aspti.Infra\Aspti.Infra.Data.csproj", "{79C6B153-A48C-4C64-9FEC-C0037AED12B6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Application", "aspti.Application\Aspti.Application.csproj", "{CB846DE4-0E16-428F-B490-A8550DDF49EB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A6C49945-F258-46D9-87F4-5EDC7C97CF59} = {A6C49945-F258-46D9-87F4-5EDC7C97CF59}
+		{3D79967A-4658-4F98-AD08-872568B0D35D} = {3D79967A-4658-4F98-AD08-872568B0D35D}
+		{5351F4AD-6EE7-43EA-B865-FD1C98546A9A} = {5351F4AD-6EE7-43EA-B865-FD1C98546A9A}
+		{5AF69FD0-1A39-4EE1-9002-AC7A8A065199} = {5AF69FD0-1A39-4EE1-9002-AC7A8A065199}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Services", "aspti.Services\Aspti.Services.csproj", "{CA560EFE-1839-49A3-9E7D-0C0EF5E6C954}"
 EndProject
@@ -41,6 +47,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.Autenticacao", "Aspti.Infra.CrossCutting.Autenticacao\Aspti.Infra.CrossCutting.Autenticacao.csproj", "{84EAFA94-901F-4DF5-8656-306EF130FCF2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.Configuration", "Aspti.Infra.CrossCutting.Configuration\Aspti.Infra.CrossCutting.Configuration.csproj", "{598F7429-9B52-4B04-84A0-8729F33DB787}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.3 - ServicosExternos", "4.3 - ServicosExternos", "{28C51C97-A07B-49E5-8E45-E49D78AB52AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.ServicosExternos.BuscaCep", "Aspti.Infra.ServicosExternos.BuscaCep\Aspti.Infra.ServicosExternos.BuscaCep.csproj", "{3D79967A-4658-4F98-AD08-872568B0D35D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.Paginacao", "Aspti.Infra.CrossCutting.Paginacao\Aspti.Infra.CrossCutting.Paginacao.csproj", "{0F65ADEA-9B2B-4B17-B227-E7A353657B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.UoW", "Aspti.Infra.CrossCutting.UoW\Aspti.Infra.CrossCutting.UoW.csproj", "{46E09791-3EF0-419A-BAA4-BD9DDA882657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.Constantes", "Aspti.Infra.CrossCutting.Constantes\Aspti.Infra.CrossCutting.Constantes.csproj", "{3DE8284E-C60F-4004-85AA-107F31C28D92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,6 +108,22 @@ Global
 		{598F7429-9B52-4B04-84A0-8729F33DB787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{598F7429-9B52-4B04-84A0-8729F33DB787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{598F7429-9B52-4B04-84A0-8729F33DB787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D79967A-4658-4F98-AD08-872568B0D35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D79967A-4658-4F98-AD08-872568B0D35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D79967A-4658-4F98-AD08-872568B0D35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D79967A-4658-4F98-AD08-872568B0D35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F65ADEA-9B2B-4B17-B227-E7A353657B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F65ADEA-9B2B-4B17-B227-E7A353657B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F65ADEA-9B2B-4B17-B227-E7A353657B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F65ADEA-9B2B-4B17-B227-E7A353657B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E09791-3EF0-419A-BAA4-BD9DDA882657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E09791-3EF0-419A-BAA4-BD9DDA882657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E09791-3EF0-419A-BAA4-BD9DDA882657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E09791-3EF0-419A-BAA4-BD9DDA882657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE8284E-C60F-4004-85AA-107F31C28D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE8284E-C60F-4004-85AA-107F31C28D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE8284E-C60F-4004-85AA-107F31C28D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE8284E-C60F-4004-85AA-107F31C28D92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +142,11 @@ Global
 		{5351F4AD-6EE7-43EA-B865-FD1C98546A9A} = {9070CD8C-6C21-449A-99CB-0501056AFEEE}
 		{84EAFA94-901F-4DF5-8656-306EF130FCF2} = {9070CD8C-6C21-449A-99CB-0501056AFEEE}
 		{598F7429-9B52-4B04-84A0-8729F33DB787} = {9070CD8C-6C21-449A-99CB-0501056AFEEE}
+		{28C51C97-A07B-49E5-8E45-E49D78AB52AA} = {DF1BC236-86A1-41BF-80FE-E296E23A396B}
+		{3D79967A-4658-4F98-AD08-872568B0D35D} = {28C51C97-A07B-49E5-8E45-E49D78AB52AA}
+		{0F65ADEA-9B2B-4B17-B227-E7A353657B6F} = {9070CD8C-6C21-449A-99CB-0501056AFEEE}
+		{46E09791-3EF0-419A-BAA4-BD9DDA882657} = {9070CD8C-6C21-449A-99CB-0501056AFEEE}
+		{3DE8284E-C60F-4004-85AA-107F31C28D92} = {9070CD8C-6C21-449A-99CB-0501056AFEEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {809302CF-C31A-4E04-BB01-76FDC7983A8C}

@@ -2,7 +2,6 @@ C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Utils\bi
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Utils\bin\Debug\net5.0\Aspti.Infra.CrossCutting.Utils.dll
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Utils\bin\Debug\net5.0\ref\Aspti.Infra.CrossCutting.Utils.dll
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Utils\bin\Debug\net5.0\Aspti.Infra.CrossCutting.Utils.pdb
-C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Utils\obj\Debug\net5.0\Aspti.Infra.CrossCutting.Utils.csproj.AssemblyReference.cache
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Utils\obj\Debug\net5.0\Aspti.Infra.CrossCutting.Utils.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Utils\obj\Debug\net5.0\Aspti.Infra.CrossCutting.Utils.AssemblyInfoInputs.cache
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\Aspti.Infra.CrossCutting.Utils\obj\Debug\net5.0\Aspti.Infra.CrossCutting.Utils.AssemblyInfo.cs

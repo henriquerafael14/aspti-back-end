@@ -4,4 +4,19 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\aspti.Entidade\Aspti.Domain.csproj" />
+    <ProjectReference Include="..\Aspti.Infra.CrossCutting.Constantes\Aspti.Infra.CrossCutting.Constantes.csproj" />
+    <ProjectReference Include="..\Aspti.Infra.CrossCutting.Paginacao\Aspti.Infra.CrossCutting.Paginacao.csproj" />
+    <ProjectReference Include="..\Aspti.Infra.CrossCutting.UoW\Aspti.Infra.CrossCutting.UoW.csproj" />
+    <ProjectReference Include="..\Aspti.Infra.ServicosExternos.BuscaCep\Aspti.Infra.ServicosExternos.BuscaCep.csproj" />
+  </ItemGroup>
+
 </Project>

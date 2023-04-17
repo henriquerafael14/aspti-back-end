@@ -39,7 +39,6 @@ C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.UI\bin\Debug\net5.0\Microso
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.UI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.UI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.UI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.UI\obj\Debug\net5.0\Aspti.UI.csproj.AssemblyReference.cache
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.UI\obj\Debug\net5.0\Aspti.UI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.UI\obj\Debug\net5.0\Aspti.UI.AssemblyInfoInputs.cache
 C:\Users\Rafael\Documents\ASPTI\aspti-back-end\aspti.UI\obj\Debug\net5.0\Aspti.UI.AssemblyInfo.cs
