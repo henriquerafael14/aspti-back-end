@@ -27,13 +27,13 @@ namespace Aspti.API.Controllers
 			_usuarioAppService = usuarioAppService;
 		}
 
-		//[HttpPost, AllowAnonymous]
-		//[SwaggerResponse((int)HttpStatusCode.OK, "", typeof(Response<RegistroUsuarioResponse>))]
-		//[SwaggerOperation(Summary = ConstantesSistema.DescricaoUsuario.Registrar)]
-		//public async Task<IActionResult> Registrar([FromBody] UsuarioRequest registrarUsuarioRequest)
-		//{
-		//	var usuario = await _usuarioAppService.RegistrarUsuario(registrarUsuarioRequest);
-		//	return CustomResponse(usuario);
-		//}
+		[HttpPost, AllowAnonymous]
+		[SwaggerResponse((int)HttpStatusCode.OK, "", typeof(Response<RegistroUsuarioResponse>))]
+		[SwaggerOperation(Summary = ConstantesSistema.DescricaoUsuario.Registrar)]
+		public async Task<IActionResult> Registrar([FromBody] UsuarioRequest registrarUsuarioRequest)
+		{
+			var usuario = await _usuarioAppService.RegistrarUsuario(registrarUsuarioRequest);
+			return CustomResponse(usuario);
+		}
 	}
 }

@@ -17,7 +17,7 @@ namespace Aspti.Application.AutoMapper
 			});
 
 			var mapper = mapperConfig.CreateMapper();
-			services.AddSingleton(services);
+			services.AddSingleton(mapper);
 		}
 
 		private void ConfigureMappingsApi(IMapperConfigurationExpression config)
