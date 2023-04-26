@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="LinqKit" Version="1.2.4" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="7.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aspti.Infra.CrossCutting.Autenticacao\Aspti.Infra.CrossCutting.Autenticacao.csproj" />
+    <ProjectReference Include="..\Aspti.Infra.CrossCutting.LogAudit\Aspti.Infra.CrossCutting.LogAudit.csproj" />
+    <ProjectReference Include="..\Aspti.Infra.CrossCutting.Notificacoes\Aspti.Infra.CrossCutting.Notificacoes.csproj" />
+    <ProjectReference Include="..\Aspti.Infra.CrossCutting.Paginacao\Aspti.Infra.CrossCutting.Paginacao.csproj" />
+    <ProjectReference Include="..\Aspti.Infra.CrossCutting.Utils\Aspti.Infra.CrossCutting.Utils.csproj" />
+    <ProjectReference Include="..\Aspti.Infra.CrossCutting\Aspti.Infra.CrossCutting.Enums.csproj" />
+  </ItemGroup>
+
+</Project>

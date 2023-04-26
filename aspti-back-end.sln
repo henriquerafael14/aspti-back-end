@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32428.217
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Domain", "aspti.Entidade\Aspti.Domain.csproj", "{A6C49945-F258-46D9-87F4-5EDC7C97CF59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Domain", "src\Aspti.Entidade\Aspti.Domain.csproj", "{A6C49945-F258-46D9-87F4-5EDC7C97CF59}"
 	ProjectSection(ProjectDependencies) = postProject
 		{58B72C01-2283-476B-AB96-77A1DAF4D25D} = {58B72C01-2283-476B-AB96-77A1DAF4D25D}
 	EndProjectSection
@@ -18,45 +18,53 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{DF1BC236-86A1-41BF-80FE-E296E23A396B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.Data", "aspti.Infra\Aspti.Infra.Data.csproj", "{79C6B153-A48C-4C64-9FEC-C0037AED12B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.Data", "src\Aspti.Infra\Aspti.Infra.Data.csproj", "{79C6B153-A48C-4C64-9FEC-C0037AED12B6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Application", "aspti.Application\Aspti.Application.csproj", "{CB846DE4-0E16-428F-B490-A8550DDF49EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Application", "src\Aspti.Application\Aspti.Application.csproj", "{CB846DE4-0E16-428F-B490-A8550DDF49EB}"
 	ProjectSection(ProjectDependencies) = postProject
-		{A6C49945-F258-46D9-87F4-5EDC7C97CF59} = {A6C49945-F258-46D9-87F4-5EDC7C97CF59}
 		{3D79967A-4658-4F98-AD08-872568B0D35D} = {3D79967A-4658-4F98-AD08-872568B0D35D}
 		{5351F4AD-6EE7-43EA-B865-FD1C98546A9A} = {5351F4AD-6EE7-43EA-B865-FD1C98546A9A}
 		{5AF69FD0-1A39-4EE1-9002-AC7A8A065199} = {5AF69FD0-1A39-4EE1-9002-AC7A8A065199}
+		{A6C49945-F258-46D9-87F4-5EDC7C97CF59} = {A6C49945-F258-46D9-87F4-5EDC7C97CF59}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Services", "aspti.Services\Aspti.Services.csproj", "{CA560EFE-1839-49A3-9E7D-0C0EF5E6C954}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.UI", "aspti.UI\Aspti.UI.csproj", "{D07D1489-602C-4355-A1E4-B9BA53263CF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Services", "src\Aspti.Services\Aspti.Services.csproj", "{CA560EFE-1839-49A3-9E7D-0C0EF5E6C954}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{AD136DA5-062E-439F-B068-5BBA1B775F72}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{9070CD8C-6C21-449A-99CB-0501056AFEEE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.CrossCutting.Enums", "Aspti.Infra.CrossCutting\Aspti.Infra.CrossCutting.Enums.csproj", "{5AF69FD0-1A39-4EE1-9002-AC7A8A065199}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.CrossCutting.Enums", "src\Aspti.Infra.CrossCutting\Aspti.Infra.CrossCutting.Enums.csproj", "{5AF69FD0-1A39-4EE1-9002-AC7A8A065199}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.CrossCutting.Utils", "Aspti.Infra.CrossCutting.Utils\Aspti.Infra.CrossCutting.Utils.csproj", "{58B72C01-2283-476B-AB96-77A1DAF4D25D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.CrossCutting.Utils", "src\Aspti.Infra.CrossCutting.Utils\Aspti.Infra.CrossCutting.Utils.csproj", "{58B72C01-2283-476B-AB96-77A1DAF4D25D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.CrossCutting.LogAudit", "Aspti.Infra.CrossCutting.LogAudit\Aspti.Infra.CrossCutting.LogAudit.csproj", "{540A10CF-648D-48B3-8B5B-EDF539E4FA72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.CrossCutting.LogAudit", "src\Aspti.Infra.CrossCutting.LogAudit\Aspti.Infra.CrossCutting.LogAudit.csproj", "{540A10CF-648D-48B3-8B5B-EDF539E4FA72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.Notificacoes", "Aspti.Infra.CrossCutting.Notificacoes\Aspti.Infra.CrossCutting.Notificacoes.csproj", "{5351F4AD-6EE7-43EA-B865-FD1C98546A9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.CrossCutting.Notificacoes", "src\Aspti.Infra.CrossCutting.Notificacoes\Aspti.Infra.CrossCutting.Notificacoes.csproj", "{5351F4AD-6EE7-43EA-B865-FD1C98546A9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.Autenticacao", "Aspti.Infra.CrossCutting.Autenticacao\Aspti.Infra.CrossCutting.Autenticacao.csproj", "{84EAFA94-901F-4DF5-8656-306EF130FCF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.CrossCutting.Autenticacao", "src\Aspti.Infra.CrossCutting.Autenticacao\Aspti.Infra.CrossCutting.Autenticacao.csproj", "{84EAFA94-901F-4DF5-8656-306EF130FCF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.Configuration", "Aspti.Infra.CrossCutting.Configuration\Aspti.Infra.CrossCutting.Configuration.csproj", "{598F7429-9B52-4B04-84A0-8729F33DB787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.CrossCutting.Configuration", "src\Aspti.Infra.CrossCutting.Configuration\Aspti.Infra.CrossCutting.Configuration.csproj", "{598F7429-9B52-4B04-84A0-8729F33DB787}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.3 - ServicosExternos", "4.3 - ServicosExternos", "{28C51C97-A07B-49E5-8E45-E49D78AB52AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.ServicosExternos.BuscaCep", "Aspti.Infra.ServicosExternos.BuscaCep\Aspti.Infra.ServicosExternos.BuscaCep.csproj", "{3D79967A-4658-4F98-AD08-872568B0D35D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.ServicosExternos.BuscaCep", "src\Aspti.Infra.ServicosExternos.BuscaCep\Aspti.Infra.ServicosExternos.BuscaCep.csproj", "{3D79967A-4658-4F98-AD08-872568B0D35D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.Paginacao", "Aspti.Infra.CrossCutting.Paginacao\Aspti.Infra.CrossCutting.Paginacao.csproj", "{0F65ADEA-9B2B-4B17-B227-E7A353657B6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.CrossCutting.Paginacao", "src\Aspti.Infra.CrossCutting.Paginacao\Aspti.Infra.CrossCutting.Paginacao.csproj", "{0F65ADEA-9B2B-4B17-B227-E7A353657B6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.UoW", "Aspti.Infra.CrossCutting.UoW\Aspti.Infra.CrossCutting.UoW.csproj", "{46E09791-3EF0-419A-BAA4-BD9DDA882657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.CrossCutting.UoW", "src\Aspti.Infra.CrossCutting.UoW\Aspti.Infra.CrossCutting.UoW.csproj", "{46E09791-3EF0-419A-BAA4-BD9DDA882657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.Constantes", "Aspti.Infra.CrossCutting.Constantes\Aspti.Infra.CrossCutting.Constantes.csproj", "{3DE8284E-C60F-4004-85AA-107F31C28D92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.CrossCutting.Constantes", "src\Aspti.Infra.CrossCutting.Constantes\Aspti.Infra.CrossCutting.Constantes.csproj", "{3DE8284E-C60F-4004-85AA-107F31C28D92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.API", "src\Aspti.API\Aspti.API.csproj", "{5ED920BC-43CD-46E3-8909-AAD97906C93E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0BD0F68A-F77E-47D6-80B8-D6DFBBB624CB} = {0BD0F68A-F77E-47D6-80B8-D6DFBBB624CB}
+		{79C6B153-A48C-4C64-9FEC-C0037AED12B6} = {79C6B153-A48C-4C64-9FEC-C0037AED12B6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.IoC", "src\Aspti.Infra.CrossCutting.IoC\Aspti.Infra.CrossCutting.IoC.csproj", "{0BD0F68A-F77E-47D6-80B8-D6DFBBB624CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.Resources", "src\Aspti.Infra.CrossCutting.Resources\Aspti.Infra.CrossCutting.Resources.csproj", "{E47C404F-2B2B-41F8-95D3-3FA1B687324F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -80,10 +88,6 @@ Global
 		{CA560EFE-1839-49A3-9E7D-0C0EF5E6C954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA560EFE-1839-49A3-9E7D-0C0EF5E6C954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA560EFE-1839-49A3-9E7D-0C0EF5E6C954}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D07D1489-602C-4355-A1E4-B9BA53263CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D07D1489-602C-4355-A1E4-B9BA53263CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D07D1489-602C-4355-A1E4-B9BA53263CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D07D1489-602C-4355-A1E4-B9BA53263CF6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5AF69FD0-1A39-4EE1-9002-AC7A8A065199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5AF69FD0-1A39-4EE1-9002-AC7A8A065199}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AF69FD0-1A39-4EE1-9002-AC7A8A065199}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -124,6 +128,18 @@ Global
 		{3DE8284E-C60F-4004-85AA-107F31C28D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DE8284E-C60F-4004-85AA-107F31C28D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DE8284E-C60F-4004-85AA-107F31C28D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED920BC-43CD-46E3-8909-AAD97906C93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED920BC-43CD-46E3-8909-AAD97906C93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED920BC-43CD-46E3-8909-AAD97906C93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED920BC-43CD-46E3-8909-AAD97906C93E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD0F68A-F77E-47D6-80B8-D6DFBBB624CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD0F68A-F77E-47D6-80B8-D6DFBBB624CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD0F68A-F77E-47D6-80B8-D6DFBBB624CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD0F68A-F77E-47D6-80B8-D6DFBBB624CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47C404F-2B2B-41F8-95D3-3FA1B687324F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47C404F-2B2B-41F8-95D3-3FA1B687324F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47C404F-2B2B-41F8-95D3-3FA1B687324F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47C404F-2B2B-41F8-95D3-3FA1B687324F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -133,7 +149,6 @@ Global
 		{79C6B153-A48C-4C64-9FEC-C0037AED12B6} = {AD136DA5-062E-439F-B068-5BBA1B775F72}
 		{CB846DE4-0E16-428F-B490-A8550DDF49EB} = {CD9699AC-DACA-48D1-B912-44CDFC74F516}
 		{CA560EFE-1839-49A3-9E7D-0C0EF5E6C954} = {647A54A6-42C7-4019-B8E4-07EF657913A0}
-		{D07D1489-602C-4355-A1E4-B9BA53263CF6} = {86522AA6-93A1-48F1-A423-F9E8F0C31E8D}
 		{AD136DA5-062E-439F-B068-5BBA1B775F72} = {DF1BC236-86A1-41BF-80FE-E296E23A396B}
 		{9070CD8C-6C21-449A-99CB-0501056AFEEE} = {DF1BC236-86A1-41BF-80FE-E296E23A396B}
 		{5AF69FD0-1A39-4EE1-9002-AC7A8A065199} = {9070CD8C-6C21-449A-99CB-0501056AFEEE}
@@ -147,6 +162,9 @@ Global
 		{0F65ADEA-9B2B-4B17-B227-E7A353657B6F} = {9070CD8C-6C21-449A-99CB-0501056AFEEE}
 		{46E09791-3EF0-419A-BAA4-BD9DDA882657} = {9070CD8C-6C21-449A-99CB-0501056AFEEE}
 		{3DE8284E-C60F-4004-85AA-107F31C28D92} = {9070CD8C-6C21-449A-99CB-0501056AFEEE}
+		{5ED920BC-43CD-46E3-8909-AAD97906C93E} = {86522AA6-93A1-48F1-A423-F9E8F0C31E8D}
+		{0BD0F68A-F77E-47D6-80B8-D6DFBBB624CB} = {9070CD8C-6C21-449A-99CB-0501056AFEEE}
+		{E47C404F-2B2B-41F8-95D3-3FA1B687324F} = {9070CD8C-6C21-449A-99CB-0501056AFEEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {809302CF-C31A-4E04-BB01-76FDC7983A8C}

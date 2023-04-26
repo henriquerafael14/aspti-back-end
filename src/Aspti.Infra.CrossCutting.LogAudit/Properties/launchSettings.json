@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Aspti.Infra.CrossCutting.LogAudit": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:65269;http://localhost:65276"
+    }
+  }
+}
