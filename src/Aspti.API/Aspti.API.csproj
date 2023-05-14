@@ -38,6 +38,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Aspti.Infra.CrossCutting.Filters.Attributes\Aspti.Infra.CrossCutting.Filters.csproj" />
     <ProjectReference Include="..\aspti.Entidade\Aspti.Domain.csproj" />
     <ProjectReference Include="..\Aspti.Infra.CrossCutting.Configuration\Aspti.Infra.CrossCutting.Configuration.csproj" />
     <ProjectReference Include="..\Aspti.Infra.CrossCutting.IoC\Aspti.Infra.CrossCutting.IoC.csproj" />

@@ -3,7 +3,10 @@ using Aspti.Application.Request;
 using Aspti.Application.Response;
 using Aspti.Infra.CrossCutting.Autenticacao.Extensions;
 using Aspti.Infra.CrossCutting.Constantes;
+using Aspti.Infra.CrossCutting.Enums;
+using Aspti.Infra.CrossCutting.Filters.Attributes;
 using Aspti.Infra.CrossCutting.Notificacoes;
+using Aspti.Infra.CrossCutting.Paginacao;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -25,6 +28,15 @@ namespace Aspti.API.Controllers
 		ILogger<UsuarioController> logger) : base(notificador, usuarioLogado, logger)
 		{
 			_usuarioAppService = usuarioAppService;
+		}
+
+		[HttpGet, AuthorizationFilter(PermissaoClaimNameEnum.Usuario, PermissaoClaimValueEnum.Visualizar)]
+		[SwaggerResponse((int)HttpStatusCode.OK, "", typeof(Response<ResultPaginado<UsuarioResponse>>))]
+		[SwaggerOperation(Summary = ConstantesSistema.DescricaoUsuario.ObterTodos)]
+		public async Task<IActionResult> ObterTodos([FromQuery] InputPaginado input)
+		{
+			var usuarios = await _usuarioAppService.ObterTodosPaginado(input);
+			return CustomResponse(usuarios);
 		}
 
 		[HttpPost, AllowAnonymous]

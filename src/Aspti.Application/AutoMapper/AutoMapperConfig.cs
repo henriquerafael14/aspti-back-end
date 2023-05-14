@@ -1,4 +1,5 @@
-﻿using Aspti.Application.Response;
+﻿using Aspti.Application.Request;
+using Aspti.Application.Response;
 using Aspti.Domain.Entidades;
 using Aspti.Infra.ServicosExternos.BuscaCep.Response;
 using AutoMapper;
@@ -25,6 +26,10 @@ namespace Aspti.Application.AutoMapper
 			config.CreateMap<Usuario, UsuarioResponse>()
 				.ForMember(dest => dest.Telefone, opt => opt.MapFrom(src => src.PhoneNumber))
 				.ForMember(dest => dest.Perfis, opt => opt.MapFrom(src => src.UsuarioPerfis.Select(x => x.Perfil)));
+			config.CreateMap<Usuario, LoginResponse>();
+
+			config.CreateMap<EnderecoRequest, Endereco>();
+			config.CreateMap<Endereco, EnderecoResponse>();
 
 			config.CreateMap<JsonViaCep, BuscarCepResponse>();
 			config.CreateMap<JsonBrasilApi, BuscarCepResponse>();
