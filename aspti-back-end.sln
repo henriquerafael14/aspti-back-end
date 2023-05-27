@@ -66,12 +66,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.CrossCutting.Io
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspti.Infra.CrossCutting.Resources", "src\Aspti.Infra.CrossCutting.Resources\Aspti.Infra.CrossCutting.Resources.csproj", "{E47C404F-2B2B-41F8-95D3-3FA1B687324F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.Filters", "Aspti.Infra.CrossCutting.Filters.Attributes\Aspti.Infra.CrossCutting.Filters.csproj", "{CB1514B3-615D-4F4C-80DF-686FF2D62DCB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.Filters", "src\Aspti.Infra.CrossCutting.Filters.Attributes\Aspti.Infra.CrossCutting.Filters.csproj", "{CB1514B3-615D-4F4C-80DF-686FF2D62DCB}"
 	ProjectSection(ProjectDependencies) = postProject
 		{56BC1DA5-5C78-4A3F-A66E-957C419B6D94} = {56BC1DA5-5C78-4A3F-A66E-957C419B6D94}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.Extensions", "Aspti.Infra.CrossCutting.Extensions\Aspti.Infra.CrossCutting.Extensions.csproj", "{56BC1DA5-5C78-4A3F-A66E-957C419B6D94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspti.Infra.CrossCutting.Extensions", "src\Aspti.Infra.CrossCutting.Extensions\Aspti.Infra.CrossCutting.Extensions.csproj", "{56BC1DA5-5C78-4A3F-A66E-957C419B6D94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
