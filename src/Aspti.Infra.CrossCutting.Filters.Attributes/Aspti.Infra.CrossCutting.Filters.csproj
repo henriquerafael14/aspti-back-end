@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -28,8 +28,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Aspti.Entidade\Aspti.Domain.csproj" />
     <ProjectReference Include="..\Aspti.Infra.CrossCutting.Extensions\Aspti.Infra.CrossCutting.Extensions.csproj" />
-    <ProjectReference Include="..\src\Aspti.Entidade\Aspti.Domain.csproj" />
+    <ProjectReference Include="..\Aspti.Infra.CrossCutting\Aspti.Infra.CrossCutting.Enums.csproj" />
   </ItemGroup>
 
 </Project>
